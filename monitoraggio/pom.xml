@@ -136,7 +136,9 @@
 			<version>1.9.10</version>
 		</dependency>
 	</dependencies>
-	
+    <profiles>
+		<profile>
+			<id>origin</id>
 			<build>
 				<finalName>monitoraggio</finalName>
 				<plugins>
@@ -159,5 +161,7 @@
 					</resource>
 				</resources>
 			</build>
+		</profile>
+    </profiles>		
 		
 </project>	
