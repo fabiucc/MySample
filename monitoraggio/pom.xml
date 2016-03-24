@@ -138,7 +138,7 @@
 	</dependencies>
     <profiles>
 		<profile>
-			<id>origin</id>
+			<id>openshift</id>
 			<build>
 				<finalName>monitoraggio</finalName>
 				<plugins>
