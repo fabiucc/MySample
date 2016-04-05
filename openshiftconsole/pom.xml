@@ -118,6 +118,9 @@
 			<version>1.22</version>
 		</dependency>
 	</dependencies>
+	<profiles>
+		<profile>
+			<id>openshift</id>
 	<build>
 		<finalName>openshiftconsole</finalName>
 		<plugins>
@@ -147,6 +150,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		
 		<resources>
 			<resource>
 				<directory>src/main/resources</directory>
@@ -156,4 +160,6 @@
 			</resource>
 		</resources>
 	</build>
+	</profile>
+		</profiles>
 </project>	
